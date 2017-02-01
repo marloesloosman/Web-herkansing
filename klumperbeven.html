@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Klumperbeven</title>
+    <meta name="viewport" content="width=devicewidth,initial-scale=1">
+    <link rel="stylesheet" href="Styles/Stylesheet.css">
+</head>
+
+<body>
+    <a href="overzichtspagina.html">
+        <p>&#10005;</p>
+    </a>
+    <div class="verhaal123">
+        <img id="nonactief" src="Images/favoriet-ster-ios-7-interface-symbool_318-33645.png" alt="" onclick="document.getElementById('actief').style.display='block';
+  document.getElementById('nonactief').style.display='none';">
+        <img id="actief" style="display:none;" src="Images/image.png" alt="" onclick="document.getElementById('nonactief').style.display='block';
+  document.getElementById('actief').style.display='none';">
+    <img id="Klumperbeven" src="Images/Klumperbeven%20S.jpg" alt="" width="100%">
+    <img id="KlumperbevenM" src="Images/Klumperbeven%20M.jpg" alt="" width="100%">
+    <img id="KlumperbevenL" src="Images/Klumperbeven%20L.jpg" alt="" width="100%">
+    <img id="KlumperbevenXL" src="Images/Klumperbeven%20XL.jpg" alt="" width="100%">
+    </div>
+<div id="react">
+        <input id="reageer" type="text" name="reactie" placeholder="Uw bericht">
+        <img id="comment" src="Images/reageren.png" alt="" onclick="document.getElementById('reageer').style.height='2.5em';document.getElementById('reageer').style.display='inline-block';document.getElementById('comment').style.display='none';document.getElementById('zend').style.display='inline-block';">
+        <img id="zend" src="Images/verzenden.png" alt="" onclick="document.getElementById('reageer').style.height='0em';document.getElementById('reageer').style.display='none';document.getElementById('comment').style.display='inline-block';document.getElementById('zend').style.display='none'">
+    </div>
+    <script src="JavaScript/verhalen.js"></script>
+</body>
+
+</html>
