@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <meta name="viewport" content="width=devicewidth,initial-scale=1">
+    <link rel="stylesheet" href="Styles/Stylesheet.css">
+</head>
+<body id="body">
+        <img id="logoin" src="Images/Nederlandse-spoorwegen-NS-logo.png" alt="NS logo">
+    <form action="none">
+        <h1>Account aanmaken</h1>
+        <fieldset>
+            <legend>
+                Naam
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>Voornaam</label>
+                    </td>
+                    <td>
+                        <input type="text" name="voornaam" placeholder="vb. Marloes" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Tussenvoegsel</label>
+                    </td>
+                    <td>
+                        <input type="text" name="tussenvoegsel" placeholder="optioneel">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Achternaam</label>
+                    </td>
+                    <td>
+                        <input type="text" name="achternaam" placeholder="vb. Loosman" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Adres en telefoonnummer
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>Straat</label>
+                    </td>
+                    <td>
+                        <input type="text" name="straat" placeholder="vb. Kooltuinen" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Huisnummer</label>
+                    </td>
+                    <td>
+                        <input type="number" name="huisnummer" placeholder="vb. 9" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Postcode</label>
+                    </td>
+                    <td>
+                        <input type="text" name="postcode" placeholder="vb. 8321sp" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Telefoonnummer</label>
+                    </td>
+                    <td>
+                        <input type="text" name="telefoonnummer" placeholder="vb. 0641716637" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Inloggegevens
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>E-mailadres</label>
+                    </td>
+                    <td>
+                        <input type="email" name="emailadres" placeholder="vb. marloesloosman@hotmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Wachtwoord</label>
+                    </td>
+                    <td>
+                        <input type="password" name="wachtwoord" placeholder="*****" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset id="verzend">
+            <a id="home" href="overzichtspagina.html">Naar overzichtspagina</a><input type="submit" value="Verzend &nbsp; &nbsp; &nbsp; &nbsp; &gt;">
+        </fieldset>
+    </form>
+    <script src="JavaScript/verhalen.js"></script>
+</body>
+</html>
