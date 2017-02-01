@@ -1,0 +1,820 @@
+    body {
+        font-family: nssans, frutiger, arctik, swift, helvetica;
+        background-color: white;
+    }
+    
+    #logoin {
+        height: 3.5em;
+    }
+    
+    h1 {
+        color: #003082;
+        font-size: 2em;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin: 5%;
+    }
+    
+    #home {
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        border-bottom: 1px solid gray;
+        width: 10em;
+        height: 2em;
+        margin-bottom: 1em;
+    }
+    
+    #home:hover {
+        border-bottom: 3px solid #003082;
+        transition: border 1s;
+    }
+    
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        border-color: white;
+        border-style: none;
+    }
+    
+    #body input {
+        margin-bottom: 1em;
+        padding: 0.5em;
+        width: 100%;
+        border: 1px solid #003082;
+    }
+    
+    legend {
+        font-size: 1.5em;
+        color: #003082;
+    }
+    
+    table {
+        width: 100%;
+    }
+
+#verzend input {
+        background-color: #0079d3;
+        color: #fff;
+        box-shadow: 0 -0.125rem 0 #005ca0 inset;
+        padding: .625rem 1.125rem;
+        padding-right: 2.9375rem;
+        width: 9em;
+        line-height: 1.5625rem;
+        font-size: 1rem;
+        text-align: center;
+        display: block;
+    }
+    
+ @media screen and (min-width: 31.25em) {   
+    #verzend input {
+        background-color: #0079d3;
+        margin-top: -2.5em;
+        margin-left: 12em;
+        color: #fff;
+        box-shadow: 0 -0.125rem 0 #005ca0 inset;
+        padding: .625rem 1.125rem;
+        padding-right: 2.9375rem;
+        width: 9em;
+        line-height: 1.5625rem;
+        font-size: 1rem;
+        text-align: center;
+        display: inline-block;
+    }
+     #home {
+         margin-bottom: 0;
+     }
+ }
+    
+    td {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+    tr:active {
+        color: #003082;
+        zoom: 110%;
+    }
+    
+    #body input[value=""] {
+        border: 1px solid #003082
+    }
+    
+    #body form input:valid {
+        border-color: green;
+    }
+    
+    @media screen and (min-width: 31.25em) {
+        h1 {
+            font-size: 2.375rem;
+            display: flex;
+            align-self: flex-start;
+            justify-content: flex-start;
+            margin-left: 3%;
+        }
+        legend {
+            font-size: 2em;
+        }
+        label {
+            font-size: 1.5em;
+        }
+        form {
+            background-color: white;
+            width: 99%;
+            padding-top: 5%;
+            padding-right: 5%;
+        }
+    }
+    
+    @media screen and (min-width: 46.9375em) {
+        body {
+            background-color: #e6e6e9;
+        }
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            border-color: white;
+            border-style: none;
+        }
+        form {
+            width: 60%;
+            margin: auto;
+            background-color: white;
+            padding: 5%;
+        }
+        td {
+            width: 48.5%;
+            display: inline-block;
+        }
+        #logoin {
+            float: right;
+            margin-right: 20%;
+            height: 5em;
+        }
+    }
+    
+    header {
+        background-color: white;
+        vertical-align: top;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .zoekbalk {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    p {
+        font-size: 0.7em;
+        line-height: 1.4em;
+    }
+    
+    @media screen and (max-width: 31.1875em) {
+        #vvddimg {
+            height: 0;
+        }
+    }
+    
+    @media screen and (min-width: 31.25em) {
+        #vvddimg {
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 1.5%;
+            z-index: 0;
+        }
+    }
+    
+    main {
+        margin-bottom: 5vw;
+        margin: auto;
+        vertical-align: top;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    #verhaalvandedag {
+        width: 90%;
+        margin: auto;
+        Color: white;
+        background: rgba(0, 48, 130, 0.7);
+        padding: 1em;
+        z-index: 1;
+    }
+    
+    #verhaalvandedag h1 {
+        color: white;
+        text-align: center;
+        margin-top: -1%;
+        font-size: 1.5em;
+    }
+    
+    #verhaalvandedag h2 {
+        color: white;
+    }
+    
+    #leesverder {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    
+    #vvddimg {
+        visibility: hidden;
+    }
+    
+    @media screen and (min-width: 31.25em) {
+        #verhaalvandedag {
+            max-width: 75%;
+            height: 7em;
+            margin-top: -35%;
+            margin-left: 0.8em;
+            z-index: 1;
+        }
+        #verhaalvandedag h1 {
+            display: flex;
+            align-self: center;
+            justify-content: center;
+        }
+        #verhaalvandedag h2 {
+            margin-top: -3%;
+        }
+        #verhaalvandedag p {
+            margin-top: -2.5%;
+        }
+    }
+
+@media screen and (min-width: 37.5em){
+    #verhaalvandedag{
+        height: 8.5em;
+    }
+    #verhaalvandedag p{
+        font-size: 0.875em;
+    }
+    #verhaalvandedag h2{
+        font-size: 1.2em;
+    }
+}
+    
+    @media screen and (min-width: 43.75em) {
+        #verhaalvandedag {
+            height: 10em;
+            max-width: 70%;
+            margin-top: -35%;
+            margin-left: 0.8em;
+            z-index: 1;
+        }
+        #verhaalvandedag h1 {
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            font-size: 2.2em;
+        }
+        #verhaalvandedag h2 {
+            margin-top: -3.5%;
+            font-size: 1.6em;
+        }
+        #verhaalvandedag p {
+            margin-top: -3%;
+            font-size: 0.875em;
+        }
+    }
+    
+    @media screen and (min-width: 65.625em) {
+        #verhaalvandedag {
+            max-width: 65%
+        }
+    }
+    
+    @media screen and (min-width: 59.375em) {
+        main {
+            width: 80%;
+        }
+        #vvddimg {
+            width: 80%;
+            margin-left: 10%;
+        }
+        header {
+            width: 80%;
+            margin-left: 10%;
+        }
+    }
+    
+    @media screen and (min-width:78.125em) {
+        main {
+            width: 75%;
+        }
+        #vvddimg {
+            width: 75%;
+            margin-left: 12.5%;
+        }
+        header {
+            width: 75%;
+            margin-left: 12.5%;
+        }
+        #verhaalvandedag {
+            height: 11.2em;
+            font-size: 1.2em;
+        }
+    }
+    
+    @media screen and (min-width:93.75em) {
+        main {
+            width: 70%;
+        }
+        #vvddimg {
+            width: 70%;
+            margin-left: 15%;
+        }
+        header {
+            width: 70%;
+            margin-left: 15%;
+        }
+        #verhaalvandedag {
+            font-size: 1.3em;
+        }
+    }
+    
+    article {
+        width: 90%;
+        height: 50%;
+        vertical-align: top;
+        margin-left: 1.5%;
+        margin-bottom: 3vw;
+        background-color: white;
+        padding: 1.5%;
+    }
+    
+    h2 {
+        font-size: 1.1em;
+    }
+    
+    h3 {
+        font-size: 0.6em;
+    }
+    
+    article h2 {
+        color: #003082;
+    }
+    
+    article h3 {
+        color: #0079d3;
+    }
+    
+    article a {
+        color: #0079d3;
+        font-size: 0.7em;
+    }
+    
+    @media screen and (min-width: 31.25em) {
+        body {
+            background-color: #e6e6e9;
+        }
+        article {
+            width: 35%;
+            display: inline-block;
+            margin-left: 4%;
+        }
+        #artikelen {
+            margin: auto;
+        }
+        .realiteit{
+            border: 2px solid purple;
+        }
+        .humor{
+            border: 2px solid magenta;
+        }
+        .somber{
+            border: 2px solid grey;
+        }
+        .historie {
+            border: 2px solid #9d4e16;
+        }
+        .kinderen{
+            border: 2px solid green;
+        }
+        .apocalypse{
+            border: 2px solid black;    
+    }
+    }
+    
+    @media screen and (min-width: 46.875em) {
+        article {
+            font-size: 115%;
+        }
+    }
+    
+    @media screen and (min-width: 65.625em) {
+        article {
+            width: 25%;
+            height: 12em;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+    }
+    
+    select {
+        margin-left: 12.5%;
+        margin-top: 2.5%;
+        padding: 0.8em;
+        color: #003082;
+        background-color: #ffc917;
+        width: 75%;
+        height: 10%;
+        margin-bottom: 3vw;
+        position: relative;
+        z-index: 1;
+        font-size: 0.7em;
+        transition: height 1s ease;
+    }
+    
+    select option {
+        color: #000;
+    }
+    
+    select option:first-of-type {
+        color: #003082;
+    }
+
+ @media screen and (min-width: 18.75em) {
+     select {
+         width: 65%;
+         margin-left: 17.5%;
+     }
+ }
+
+ @media screen and (min-width: 25em) {
+     select {
+         width: 57.5%;
+         margin-left: 21.25%;
+     }
+ }
+    
+    @media screen and (min-width: 31.25em) {
+        select {
+            font-size: 0.875em;
+            width: 50%;
+            margin-left: 25%;
+            padding: 1.05em;
+            margin-top: -100vh;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-top: -7.5%;
+        }
+    }
+    
+    @media screen and (min-width: 34.375em) {
+        select {
+            font-size: 1.2em;
+            padding: 1.4em;
+        }
+    }
+    
+    @media screen and (min-width: 43.75em) {
+        select {
+            font-size: 2em;
+            padding: 0.8em;
+        }
+    }
+    
+    @media screen and (min-width: 59.375em) {
+        select {
+            width: 45%;
+            margin-left: 27.5%;
+        }
+    }
+    
+    .verhaal123 {
+        width: 80vw;
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    
+    #nonactief,
+    #actief {
+        position: fixed;
+        width: 1.5em;
+        height: 1.5em;
+        right: 1.5vw;
+    }
+    
+    @media screen and (min-width:31.25em) {
+        #nonactief,
+        #actief {
+            width: 2.5em;
+            height: 2.5em;
+        }
+    }
+    
+    @media screen and (min-width:43.75em) {
+        #nonactief,
+        #actief {
+            right: 2vw;
+        }
+    }
+    
+    @media screen and (min-width:56.25em) {
+        #nonactief,
+        #actief {
+            width: 3.5em;
+            height: 3.5em;
+            right: 5vw;
+        }
+    }
+    
+    @media screen and (min-width:68.75em) {
+        #nonactief,
+        #actief {
+            right: 8vw;
+        }
+    }
+    
+    #nonactief:hover {
+        animation: swing 1s ease;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes swing {
+        15% {
+            transform: translateX(5px);
+        }
+        30% {
+            transform: translateX(-5px);
+        }
+        50% {
+            transform: translateX(3px);
+        }
+        65% {
+            transform: translateX(-3px);
+        }
+        80% {
+            transform: translateX(2px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+    #Beroemd {
+        display: flex;
+        width: 100%;
+    }
+    
+    #BeroemdM {
+        display: none;
+    }
+    
+    #BeroemdL {
+        display: none;
+    }
+    
+    #BeroemdXL {
+        display: none;
+    }
+    
+    @media screen and (min-width: 31.25em) {
+        .verhaal123 #Beroemd {
+            display: none;
+        }
+        .verhaal123 #BeroemdM {
+            display: flex;
+            width: 100%;
+        }
+        .verhaal123 #BeroemdL {
+            display: none;
+        }
+        .verhaal123 #BeroemdXL {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 54.6875em) {
+        .verhaal123 #Beroemd {
+            display: none;
+        }
+        .verhaal123 #BeroemdM {
+            display: none;
+        }
+        .verhaal123 #BeroemdL {
+            display: flex;
+            width: 100%
+        }
+        .verhaal123 #BeroemdXL {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 78.125em) {
+        .verhaal123 #Beroemd {
+            display: none;
+        }
+        .verhaal123 #BeroemdM {
+            display: none;
+        }
+        .verhaal123 #BeroemdL {
+            display: none;
+        }
+        .verhaal123 #BeroemdXL {
+            display: flex;
+            width: 100%;
+        }
+    }
+    
+    .MartinBril {
+        color: #3d3d3d;
+        line-height: 1.8em;
+        font-size: 0.7em;
+        text-align: justify;
+    }
+    
+    #MartinBril {
+        color: #3d3d3d;
+        font-size: 1.7em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    
+    @media screen and (min-width: 25em) {
+        .MartinBril {
+            font-size: 0.875em;
+        }
+    }
+    
+    @media screen and (min-width: 31.25em) {
+        .MartinBril {
+            font-size: 1.05em;
+        }
+        #MartinBril {
+            font-size: 2.2em;
+        }
+    }
+    
+    @media screen and (min-width: 37.5em) {
+        .MartinBril {
+            font-size: 1.225em;
+        }
+    }
+    
+    @media screen and (min-width: 46.875em) {
+        .MartinBril {
+            margin-left: 15vw;
+            margin-right: 15vw;
+        }
+        #MartinBril {
+            margin-left: 15vw;
+        }
+    }
+    
+    @media screen and (min-width: 62.5em) {
+        .MartinBril {
+            font-size: 1.4em;
+        }
+    }
+    
+    @media screen and (min-width: 71.875em) {
+        .MartinBril {
+            margin-left: 20vw;
+            margin-right: 20vw;
+        }
+        #MartinBril {
+            margin-left: 20vw;
+        }
+    }
+    
+    @media screen and (min-width: 81.25em) {
+        .MartinBril {
+            margin-left: 25vw;
+            margin-right: 25vw;
+        }
+        #MartinBril {
+            margin-left: 25vw;
+        }
+    }
+    
+    @media screen and (max-width: 31.25em) {
+        #Klumperbeven {
+            display: flex;
+            width: 100%;
+        }
+        #KlumperbevenM {
+            display: none;
+        }
+        #KlumperbevenL {
+            display: none;
+        }
+        #KlumperbevenXL {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 31.25em) {
+        .verhaal123 #Klumperbeven {
+            display: none;
+        }
+        .verhaal123 #KlumperbevenM {
+            display: flex;
+            width: 100%;
+        }
+        .verhaal123 #KlumperbevenL {
+            display: none;
+        }
+        .verhaal123 #KlumperbevenXL {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 54.6875em) {
+        .verhaal123 #Klumperbeven {
+            display: none;
+        }
+        .verhaal123 #KlumperbevenM {
+            display: none;
+        }
+        .verhaal123 #KlumperbevenL {
+            display: flex;
+            width: 100%
+        }
+        .verhaal123 #KlumperbevenXL {
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width: 78.125em) {
+        .verhaal123 #Klumperbeven {
+            display: none;
+        }
+        .verhaal123 #KlumperbevenM {
+            display: none;
+        }
+        .verhaal123 #KlumperbevenL {
+            display: none;
+        }
+        .verhaal123 #KlumperbevenXL {
+            display: flex;
+            width: 100%;
+        }
+    }
+
+#react{
+    width: auto;
+    max-width: 17.5em;
+    height: 2.5em;
+    float: right;
+}
+
+@media screen and (min-width: 31.25em){
+    #react{
+        margin: 2em 3em 5em 0em;
+    }
+}
+
+#zend{
+    width: 2.5em;
+    display: none;
+}
+#zend:hover,
+#comment:hover{
+    animation: shake 1s 1;
+    animation-timing-function: linear;
+}
+@keyframes shake{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(45deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-45deg);}
+    100% {transform: rotate(0deg);}
+    
+}
+#reageer{
+    display: none;
+    height: 0em;
+    width: 15em;
+    transition: height 1s;
+}
+#comment{
+    width: 2.5em;
+    display: inline-block;
+}
